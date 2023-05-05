@@ -7,3 +7,6 @@
 [submodule "Week8/assignment/UpgradeUSDC/lib/solmate"]
 	path = Week8/assignment/UpgradeUSDC/lib/solmate
 	url = https://github.com/transmissions11/solmate
+[submodule "Week9/class/CastCall/lib/forge-std"]
+	path = Week9/class/CastCall/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
