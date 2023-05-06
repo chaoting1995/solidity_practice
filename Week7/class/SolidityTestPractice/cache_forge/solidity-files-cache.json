@@ -12,46 +12,6 @@
     ]
   },
   "files": {
-    "contracts/MintBAYC.sol": {
-      "lastModificationDate": 1683357367171,
-      "contentHash": "1ab60ad49f5b836b83a31b9d19897c1d",
-      "sourceName": "contracts/MintBAYC.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs",
-            "appendCBOR": true
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ]
-            }
-          },
-          "evmVersion": "london",
-          "libraries": {}
-        }
-      },
-      "imports": [],
-      "versionRequirement": "^0.8.9",
-      "artifacts": {
-        "MintBAYC": {
-          "0.8.19+commit.7dd6d404.Darwin.appleclang": "MintBAYC.sol/MintBAYC.json"
-        }
-      }
-    },
     "contracts/MyContract.sol": {
       "lastModificationDate": 1683357367173,
       "contentHash": "6c14e0cad3c7245bf7c1e969d9e45de9",
@@ -867,8 +827,8 @@
       }
     },
     "test/foundry/MintBAYC.t.sol": {
-      "lastModificationDate": 1683357365514,
-      "contentHash": "1626ec927fa8afea5acdb2c13735819e",
+      "lastModificationDate": 1683379629496,
+      "contentHash": "e73425950a9e27294cd8b014adb05174",
       "sourceName": "test/foundry/MintBAYC.t.sol",
       "solcConfig": {
         "settings": {
@@ -899,7 +859,6 @@
         }
       },
       "imports": [
-        "contracts/MintBAYC.sol",
         "lib/forge-std/lib/ds-test/src/test.sol",
         "lib/forge-std/src/Base.sol",
         "lib/forge-std/src/StdAssertions.sol",
@@ -929,8 +888,8 @@
       }
     },
     "test/foundry/MyContract.t.sol": {
-      "lastModificationDate": 1683363185824,
-      "contentHash": "24c2f5fb7213f2a043cf0ee655df379a",
+      "lastModificationDate": 1683363326370,
+      "contentHash": "0403688df24ca2c6f4d07010aca75f14",
       "sourceName": "test/foundry/MyContract.t.sol",
       "solcConfig": {
         "settings": {
@@ -988,8 +947,8 @@
       }
     },
     "test/foundry/MyContract2.t.sol": {
-      "lastModificationDate": 1683357365519,
-      "contentHash": "3197392a99ef0a39fecc811a9b50a5a1",
+      "lastModificationDate": 1683371862204,
+      "contentHash": "f6f6d8cc47f3fe9e86795efba9334981",
       "sourceName": "test/foundry/MyContract2.t.sol",
       "solcConfig": {
         "settings": {
