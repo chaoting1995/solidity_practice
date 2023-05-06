@@ -21,7 +21,7 @@ contract MintBAYCTest is Test {
   function setUp() public {
     user1 = address(0x82A9d1DCDd415bfC67a9E0d577aCDa514E4d29BF);
     BAYC_CONTRACT_ADDRESS = address(0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D);
-    MAINNET_RPC_URL = "https://mainnet.infura.io/v3/ee11e79fa3d94cac84f2325726a61ba0";
+    MAINNET_RPC_URL = vm.envString("MAINNET_RPC_URL");
     BLOCK_NUMBER = 12_299_047;
 
     forkId = vm.createFork(MAINNET_RPC_URL, BLOCK_NUMBER);
