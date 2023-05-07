@@ -10,3 +10,12 @@
 [submodule "Week9/class/CastCall/lib/forge-std"]
 	path = Week9/class/CastCall/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "Week9/assignment/TestERC721A/lib/forge-std"]
+	path = Week9/assignment/TestERC721A/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Week9/assignment/TestERC721A/lib/openzeppelin-contracts"]
+	path = Week9/assignment/TestERC721A/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "Week9/assignment/TestERC721A/lib/ERC721A"]
+	path = Week9/assignment/TestERC721A/lib/ERC721A
+	url = https://github.com/chiru-labs/ERC721A
