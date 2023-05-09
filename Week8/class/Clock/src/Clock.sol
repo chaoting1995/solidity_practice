@@ -6,8 +6,9 @@ contract Clock {
   uint256 public alarm1;
   uint256 public alarm2;
 
-  function initialize(uint256 _alarm1) external {
-    alarm1 = _alarm1; 
+  constructor(uint256 _alarm1) {
+    owner = msg.sender;
+    alarm1 = _alarm1;
   }
 
   function setAlarm1(uint256 _timestamp) public {

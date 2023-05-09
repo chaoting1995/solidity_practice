@@ -1,0 +1,805 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "alarm1",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "alarm2",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "changeOwner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getTimestamp",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_alarm1",
+          "type": "uint256"
+        }
+      ],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_timestamp",
+          "type": "uint256"
+        }
+      ],
+      "name": "setAlarm1",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5061019c806100206000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c80638da5cb5b1161005b5780638da5cb5b146100ad578063a6f9dae1146100d8578063e744bf4d1461010a578063fe4b84df1461010a57600080fd5b806306c24bd7146100825780631236c0691461009e578063188ec356146100a7575b600080fd5b61008b60015481565b6040519081526020015b60405180910390f35b61008b60025481565b4261008b565b6000546100c0906001600160a01b031681565b6040516001600160a01b039091168152602001610095565b6101086100e636600461011d565b600080546001600160a01b0319166001600160a01b0392909216919091179055565b005b61010861011836600461014d565b600155565b60006020828403121561012f57600080fd5b81356001600160a01b038116811461014657600080fd5b9392505050565b60006020828403121561015f57600080fd5b503591905056fea26469706673582212206212583498c0febb962fd2e246c7a7430cb193f942489f82456829e6457c010264736f6c63430008110033",
+    "sourceMap": "77:422:19:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b506004361061007d5760003560e01c80638da5cb5b1161005b5780638da5cb5b146100ad578063a6f9dae1146100d8578063e744bf4d1461010a578063fe4b84df1461010a57600080fd5b806306c24bd7146100825780631236c0691461009e578063188ec356146100a7575b600080fd5b61008b60015481565b6040519081526020015b60405180910390f35b61008b60025481565b4261008b565b6000546100c0906001600160a01b031681565b6040516001600160a01b039091168152602001610095565b6101086100e636600461011d565b600080546001600160a01b0319166001600160a01b0392909216919091179055565b005b61010861011836600461014d565b600155565b60006020828403121561012f57600080fd5b81356001600160a01b038116811461014657600080fd5b9392505050565b60006020828403121561015f57600080fd5b503591905056fea26469706673582212206212583498c0febb962fd2e246c7a7430cb193f942489f82456829e6457c010264736f6c63430008110033",
+    "sourceMap": "77:422:19:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;122:21;;;;;;;;;160:25:22;;;148:2;133:18;122:21:19;;;;;;;;147;;;;;;331:86;397:15;331:86;;98:20;;;;;-1:-1:-1;;;;;98:20:19;;;;;;-1:-1:-1;;;;;360:32:22;;;342:51;;330:2;315:18;98:20:19;196:203:22;421:75:19;;;;;;:::i;:::-;474:5;:17;;-1:-1:-1;;;;;;474:17:19;-1:-1:-1;;;;;474:17:19;;;;;;;;;;421:75;;;251:76;;;;;;:::i;:::-;303:6;:19;251:76;404:286:22;463:6;516:2;504:9;495:7;491:23;487:32;484:52;;;532:1;529;522:12;484:52;558:23;;-1:-1:-1;;;;;610:31:22;;600:42;;590:70;;656:1;653;646:12;590:70;679:5;404:286;-1:-1:-1;;;404:286:22:o;695:180::-;754:6;807:2;795:9;786:7;782:23;778:32;775:52;;;823:1;820;813:12;775:52;-1:-1:-1;846:23:22;;695:180;-1:-1:-1;695:180:22:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "alarm1()": "06c24bd7",
+    "alarm2()": "1236c069",
+    "changeOwner(address)": "a6f9dae1",
+    "getTimestamp()": "188ec356",
+    "initialize(uint256)": "fe4b84df",
+    "owner()": "8da5cb5b",
+    "setAlarm1(uint256)": "e744bf4d"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"alarm1\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"alarm2\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newOwner\",\"type\":\"address\"}],\"name\":\"changeOwner\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getTimestamp\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_alarm1\",\"type\":\"uint256\"}],\"name\":\"initialize\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_timestamp\",\"type\":\"uint256\"}],\"name\":\"setAlarm1\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/ClockV1.sol\":\"ClockV1\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/ClockV1.sol\":{\"keccak256\":\"0x2a888c746bbe104d01ef907cc7ce0a9b6f624e0456463d277beef294804e52a6\",\"license\":\"SEE LICENSE IN LICENSE\",\"urls\":[\"bzz-raw://b4577036e53839cafe12370fd82d397eae785159dd7d99b5d28655f7ccbe85d6\",\"dweb:/ipfs/QmaLNH3WoqmxSySVx8bZuHuUpfsY4sUB4d1EghqWU4wCMv\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "alarm1",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "alarm2",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_newOwner",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "changeOwner"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getTimestamp",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "_alarm1",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "initialize"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "owner",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "_timestamp",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setAlarm1"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/ClockV1.sol": "ClockV1"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/ClockV1.sol": {
+        "keccak256": "0x2a888c746bbe104d01ef907cc7ce0a9b6f624e0456463d277beef294804e52a6",
+        "urls": [
+          "bzz-raw://b4577036e53839cafe12370fd82d397eae785159dd7d99b5d28655f7ccbe85d6",
+          "dweb:/ipfs/QmaLNH3WoqmxSySVx8bZuHuUpfsY4sUB4d1EghqWU4wCMv"
+        ],
+        "license": "SEE LICENSE IN LICENSE"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/ClockV1.sol",
+    "id": 29258,
+    "exportedSymbols": {
+      "ClockV1": [
+        29257
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "51:450:19",
+    "nodes": [
+      {
+        "id": 29211,
+        "nodeType": "PragmaDirective",
+        "src": "51:24:19",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 29257,
+        "nodeType": "ContractDefinition",
+        "src": "77:422:19",
+        "nodes": [
+          {
+            "id": 29213,
+            "nodeType": "VariableDeclaration",
+            "src": "98:20:19",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "8da5cb5b",
+            "mutability": "mutable",
+            "name": "owner",
+            "nameLocation": "113:5:19",
+            "scope": 29257,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 29212,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "98:7:19",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 29215,
+            "nodeType": "VariableDeclaration",
+            "src": "122:21:19",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "06c24bd7",
+            "mutability": "mutable",
+            "name": "alarm1",
+            "nameLocation": "137:6:19",
+            "scope": 29257,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 29214,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "122:7:19",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 29217,
+            "nodeType": "VariableDeclaration",
+            "src": "147:21:19",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "1236c069",
+            "mutability": "mutable",
+            "name": "alarm2",
+            "nameLocation": "162:6:19",
+            "scope": 29257,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 29216,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "147:7:19",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 29227,
+            "nodeType": "FunctionDefinition",
+            "src": "173:74:19",
+            "nodes": [],
+            "body": {
+              "id": 29226,
+              "nodeType": "Block",
+              "src": "219:28:19",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 29224,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 29222,
+                      "name": "alarm1",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 29215,
+                      "src": "225:6:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 29223,
+                      "name": "_alarm1",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 29219,
+                      "src": "234:7:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "225:16:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 29225,
+                  "nodeType": "ExpressionStatement",
+                  "src": "225:16:19"
+                }
+              ]
+            },
+            "functionSelector": "fe4b84df",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "initialize",
+            "nameLocation": "182:10:19",
+            "parameters": {
+              "id": 29220,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 29219,
+                  "mutability": "mutable",
+                  "name": "_alarm1",
+                  "nameLocation": "201:7:19",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 29227,
+                  "src": "193:15:19",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 29218,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "193:7:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "192:17:19"
+            },
+            "returnParameters": {
+              "id": 29221,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "219:0:19"
+            },
+            "scope": 29257,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 29237,
+            "nodeType": "FunctionDefinition",
+            "src": "251:76:19",
+            "nodes": [],
+            "body": {
+              "id": 29236,
+              "nodeType": "Block",
+              "src": "297:30:19",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 29234,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 29232,
+                      "name": "alarm1",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 29215,
+                      "src": "303:6:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 29233,
+                      "name": "_timestamp",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 29229,
+                      "src": "312:10:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "303:19:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 29235,
+                  "nodeType": "ExpressionStatement",
+                  "src": "303:19:19"
+                }
+              ]
+            },
+            "functionSelector": "e744bf4d",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setAlarm1",
+            "nameLocation": "260:9:19",
+            "parameters": {
+              "id": 29230,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 29229,
+                  "mutability": "mutable",
+                  "name": "_timestamp",
+                  "nameLocation": "278:10:19",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 29237,
+                  "src": "270:18:19",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 29228,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "270:7:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "269:20:19"
+            },
+            "returnParameters": {
+              "id": 29231,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "297:0:19"
+            },
+            "scope": 29257,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 29246,
+            "nodeType": "FunctionDefinition",
+            "src": "331:86:19",
+            "nodes": [],
+            "body": {
+              "id": 29245,
+              "nodeType": "Block",
+              "src": "384:33:19",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "expression": {
+                      "id": 29242,
+                      "name": "block",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": -4,
+                      "src": "397:5:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_magic_block",
+                        "typeString": "block"
+                      }
+                    },
+                    "id": 29243,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberLocation": "403:9:19",
+                    "memberName": "timestamp",
+                    "nodeType": "MemberAccess",
+                    "src": "397:15:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 29241,
+                  "id": 29244,
+                  "nodeType": "Return",
+                  "src": "390:22:19"
+                }
+              ]
+            },
+            "functionSelector": "188ec356",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getTimestamp",
+            "nameLocation": "340:12:19",
+            "parameters": {
+              "id": 29238,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "352:2:19"
+            },
+            "returnParameters": {
+              "id": 29241,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 29240,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 29246,
+                  "src": "375:7:19",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 29239,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "375:7:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "374:9:19"
+            },
+            "scope": 29257,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 29256,
+            "nodeType": "FunctionDefinition",
+            "src": "421:75:19",
+            "nodes": [],
+            "body": {
+              "id": 29255,
+              "nodeType": "Block",
+              "src": "468:28:19",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 29253,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 29251,
+                      "name": "owner",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 29213,
+                      "src": "474:5:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 29252,
+                      "name": "_newOwner",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 29248,
+                      "src": "482:9:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "474:17:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 29254,
+                  "nodeType": "ExpressionStatement",
+                  "src": "474:17:19"
+                }
+              ]
+            },
+            "functionSelector": "a6f9dae1",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeOwner",
+            "nameLocation": "430:11:19",
+            "parameters": {
+              "id": 29249,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 29248,
+                  "mutability": "mutable",
+                  "name": "_newOwner",
+                  "nameLocation": "450:9:19",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 29256,
+                  "src": "442:17:19",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 29247,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "442:7:19",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "441:19:19"
+            },
+            "returnParameters": {
+              "id": 29250,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "468:0:19"
+            },
+            "scope": 29257,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ClockV1",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          29257
+        ],
+        "name": "ClockV1",
+        "nameLocation": "86:7:19",
+        "scope": 29258,
+        "usedErrors": []
+      }
+    ],
+    "license": "SEE LICENSE IN LICENSE"
+  },
+  "id": 19
+}

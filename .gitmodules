@@ -19,3 +19,6 @@
 [submodule "Week9/assignment/TestERC721A/lib/ERC721A"]
 	path = Week9/assignment/TestERC721A/lib/ERC721A
 	url = https://github.com/chiru-labs/ERC721A
+[submodule "Week8/class/Clock/lib/forge-std"]
+	path = Week8/class/Clock/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std

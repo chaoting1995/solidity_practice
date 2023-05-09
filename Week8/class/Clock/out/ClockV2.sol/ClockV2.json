@@ -1,0 +1,34 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "src/ClockV2.sol",
+    "id": 29212,
+    "exportedSymbols": {},
+    "nodeType": "SourceUnit",
+    "src": "51:216:19",
+    "nodes": [
+      {
+        "id": 29211,
+        "nodeType": "PragmaDirective",
+        "src": "51:24:19",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      }
+    ],
+    "license": "SEE LICENSE IN LICENSE"
+  },
+  "id": 19
+}
