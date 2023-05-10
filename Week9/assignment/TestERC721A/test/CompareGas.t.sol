@@ -112,7 +112,7 @@ contract CompareGasTest is Test {
       myERC721E.transferFrom(user1, user2, 3);
       myERC721A.transferFrom(user1, user2, 3);
 
-            console.log("myERC721E ownerOf(0)",myERC721E.ownerOfWithoutCheck(0));
+      console.log("myERC721E ownerOf(0)",myERC721E.ownerOfWithoutCheck(0));
       console.log("myERC721E ownerOf(1)",myERC721E.ownerOfWithoutCheck(1));
       console.log("myERC721E ownerOf(2)",myERC721E.ownerOfWithoutCheck(2));
       console.log("myERC721E ownerOf(3)",myERC721E.ownerOfWithoutCheck(3));
