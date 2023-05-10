@@ -1,24 +1,305 @@
 {
-  "abi": [],
+  "abi": [
+    {
+      "inputs": [],
+      "name": "alarm1",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "alarm2",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "changeOwner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getTimestamp",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_alarm1",
+          "type": "uint256"
+        }
+      ],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_timestamp",
+          "type": "uint256"
+        }
+      ],
+      "name": "setAlarm1",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_timestamp",
+          "type": "uint256"
+        }
+      ],
+      "name": "setAlarm2",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
   "bytecode": {
-    "object": "0x",
+    "object": "0x608060405234801561001057600080fd5b506101ba806100206000396000f3fe608060405234801561001057600080fd5b50600436106100885760003560e01c8063a6f9dae11161005b578063a6f9dae1146100e3578063b2a1974714610115578063e744bf4d14610128578063fe4b84df1461012857600080fd5b806306c24bd71461008d5780631236c069146100a9578063188ec356146100b25780638da5cb5b146100b8575b600080fd5b61009660015481565b6040519081526020015b60405180910390f35b61009660025481565b42610096565b6000546100cb906001600160a01b031681565b6040516001600160a01b0390911681526020016100a0565b6101136100f136600461013b565b600080546001600160a01b0319166001600160a01b0392909216919091179055565b005b61011361012336600461016b565b600255565b61011361013636600461016b565b600155565b60006020828403121561014d57600080fd5b81356001600160a01b038116811461016457600080fd5b9392505050565b60006020828403121561017d57600080fd5b503591905056fea2646970667358221220bacf690446c65709c46d7828d1be7d3a9d8a23058887561215617ae2700cc41864736f6c63430008110033",
+    "sourceMap": "119:112:21:-:0;;;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x",
+    "object": "0x608060405234801561001057600080fd5b50600436106100885760003560e01c8063a6f9dae11161005b578063a6f9dae1146100e3578063b2a1974714610115578063e744bf4d14610128578063fe4b84df1461012857600080fd5b806306c24bd71461008d5780631236c069146100a9578063188ec356146100b25780638da5cb5b146100b8575b600080fd5b61009660015481565b6040519081526020015b60405180910390f35b61009660025481565b42610096565b6000546100cb906001600160a01b031681565b6040516001600160a01b0390911681526020016100a0565b6101136100f136600461013b565b600080546001600160a01b0319166001600160a01b0392909216919091179055565b005b61011361012336600461016b565b600255565b61011361013636600461016b565b600155565b60006020828403121561014d57600080fd5b81356001600160a01b038116811461016457600080fd5b9392505050565b60006020828403121561017d57600080fd5b503591905056fea2646970667358221220bacf690446c65709c46d7828d1be7d3a9d8a23058887561215617ae2700cc41864736f6c63430008110033",
+    "sourceMap": "119:112:21:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;122:21:20;;;;;;;;;160:25:25;;;148:2;133:18;122:21:20;;;;;;;;147;;;;;;331:86;397:15;331:86;;98:20;;;;;-1:-1:-1;;;;;98:20:20;;;;;;-1:-1:-1;;;;;360:32:25;;;342:51;;330:2;315:18;98:20:20;196:203:25;421:75:20;;;;;;:::i;:::-;474:5;:17;;-1:-1:-1;;;;;;474:17:20;-1:-1:-1;;;;;474:17:20;;;;;;;;;;421:75;;;152:77:21;;;;;;:::i;:::-;205:6;:19;152:77;251:76:20;;;;;;:::i;:::-;303:6;:19;251:76;404:286:25;463:6;516:2;504:9;495:7;491:23;487:32;484:52;;;532:1;529;522:12;484:52;558:23;;-1:-1:-1;;;;;610:31:25;;600:42;;590:70;;656:1;653;646:12;590:70;679:5;404:286;-1:-1:-1;;;404:286:25:o;695:180::-;754:6;807:2;795:9;786:7;782:23;778:32;775:52;;;823:1;820;813:12;775:52;-1:-1:-1;846:23:25;;695:180;-1:-1:-1;695:180:25:o",
     "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "alarm1()": "06c24bd7",
+    "alarm2()": "1236c069",
+    "changeOwner(address)": "a6f9dae1",
+    "getTimestamp()": "188ec356",
+    "initialize(uint256)": "fe4b84df",
+    "owner()": "8da5cb5b",
+    "setAlarm1(uint256)": "e744bf4d",
+    "setAlarm2(uint256)": "b2a19747"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"alarm1\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"alarm2\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newOwner\",\"type\":\"address\"}],\"name\":\"changeOwner\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getTimestamp\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_alarm1\",\"type\":\"uint256\"}],\"name\":\"initialize\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_timestamp\",\"type\":\"uint256\"}],\"name\":\"setAlarm1\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_timestamp\",\"type\":\"uint256\"}],\"name\":\"setAlarm2\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/ClockV2.sol\":\"ClockV2\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/ClockV1.sol\":{\"keccak256\":\"0x2a888c746bbe104d01ef907cc7ce0a9b6f624e0456463d277beef294804e52a6\",\"license\":\"SEE LICENSE IN LICENSE\",\"urls\":[\"bzz-raw://b4577036e53839cafe12370fd82d397eae785159dd7d99b5d28655f7ccbe85d6\",\"dweb:/ipfs/QmaLNH3WoqmxSySVx8bZuHuUpfsY4sUB4d1EghqWU4wCMv\"]},\"src/ClockV2.sol\":{\"keccak256\":\"0x906f59a0ed99237a4d772d67f24aeb8ec20e52bee35b6e2b27595fc8201971ad\",\"license\":\"SEE LICENSE IN LICENSE\",\"urls\":[\"bzz-raw://9f34c712f4421aa3eafb84dffec5d3a6ee51f755ecdb8e7cf7c0ea2f92e9cdc4\",\"dweb:/ipfs/QmfH7nVG3mdwRLix1NZseD19DRsx7JUCq6vY5582QuRsfR\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "alarm1",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "alarm2",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_newOwner",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "changeOwner"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getTimestamp",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "_alarm1",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "initialize"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "owner",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "_timestamp",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setAlarm1"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "_timestamp",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setAlarm2"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/ClockV2.sol": "ClockV2"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/ClockV1.sol": {
+        "keccak256": "0x2a888c746bbe104d01ef907cc7ce0a9b6f624e0456463d277beef294804e52a6",
+        "urls": [
+          "bzz-raw://b4577036e53839cafe12370fd82d397eae785159dd7d99b5d28655f7ccbe85d6",
+          "dweb:/ipfs/QmaLNH3WoqmxSySVx8bZuHuUpfsY4sUB4d1EghqWU4wCMv"
+        ],
+        "license": "SEE LICENSE IN LICENSE"
+      },
+      "src/ClockV2.sol": {
+        "keccak256": "0x906f59a0ed99237a4d772d67f24aeb8ec20e52bee35b6e2b27595fc8201971ad",
+        "urls": [
+          "bzz-raw://9f34c712f4421aa3eafb84dffec5d3a6ee51f755ecdb8e7cf7c0ea2f92e9cdc4",
+          "dweb:/ipfs/QmfH7nVG3mdwRLix1NZseD19DRsx7JUCq6vY5582QuRsfR"
+        ],
+        "license": "SEE LICENSE IN LICENSE"
+      }
+    },
+    "version": 1
   },
   "ast": {
     "absolutePath": "src/ClockV2.sol",
-    "id": 29212,
-    "exportedSymbols": {},
+    "id": 29324,
+    "exportedSymbols": {
+      "ClockV1": [
+        29306
+      ],
+      "ClockV2": [
+        29323
+      ]
+    },
     "nodeType": "SourceUnit",
-    "src": "51:216:19",
+    "src": "51:180:21",
     "nodes": [
       {
-        "id": 29211,
+        "id": 29308,
         "nodeType": "PragmaDirective",
-        "src": "51:24:19",
+        "src": "51:24:21",
         "nodes": [],
         "literals": [
           "solidity",
@@ -26,9 +307,179 @@
           "0.8",
           ".17"
         ]
+      },
+      {
+        "id": 29310,
+        "nodeType": "ImportDirective",
+        "src": "77:40:21",
+        "nodes": [],
+        "absolutePath": "src/ClockV1.sol",
+        "file": "./ClockV1.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 29324,
+        "sourceUnit": 29307,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 29309,
+              "name": "ClockV1",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 29306,
+              "src": "86:7:21",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 29323,
+        "nodeType": "ContractDefinition",
+        "src": "119:112:21",
+        "nodes": [
+          {
+            "id": 29322,
+            "nodeType": "FunctionDefinition",
+            "src": "152:77:21",
+            "nodes": [],
+            "body": {
+              "id": 29321,
+              "nodeType": "Block",
+              "src": "199:30:21",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 29319,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 29317,
+                      "name": "alarm2",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 29266,
+                      "src": "205:6:21",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 29318,
+                      "name": "_timestamp",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 29314,
+                      "src": "214:10:21",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "205:19:21",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 29320,
+                  "nodeType": "ExpressionStatement",
+                  "src": "205:19:21"
+                }
+              ]
+            },
+            "functionSelector": "b2a19747",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setAlarm2",
+            "nameLocation": "161:9:21",
+            "parameters": {
+              "id": 29315,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 29314,
+                  "mutability": "mutable",
+                  "name": "_timestamp",
+                  "nameLocation": "180:10:21",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 29322,
+                  "src": "172:18:21",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 29313,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "172:7:21",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "171:20:21"
+            },
+            "returnParameters": {
+              "id": 29316,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "199:0:21"
+            },
+            "scope": 29323,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 29311,
+              "name": "ClockV1",
+              "nameLocations": [
+                "139:7:21"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 29306,
+              "src": "139:7:21"
+            },
+            "id": 29312,
+            "nodeType": "InheritanceSpecifier",
+            "src": "139:7:21"
+          }
+        ],
+        "canonicalName": "ClockV2",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          29323,
+          29306
+        ],
+        "name": "ClockV2",
+        "nameLocation": "128:7:21",
+        "scope": 29324,
+        "usedErrors": []
       }
     ],
     "license": "SEE LICENSE IN LICENSE"
   },
-  "id": 19
+  "id": 21
 }

@@ -18,6 +18,7 @@ contract ProxyTest is Test {
 
     function setUp() public {
         clock = new Clock(0);
+        clockV1 = new ClockV1();
         // clockV2 = new ClockV2();
         basicProxy = new BasicProxy(address(clock));
         basicProxyV1 = new BasicProxy(address(clockV1));

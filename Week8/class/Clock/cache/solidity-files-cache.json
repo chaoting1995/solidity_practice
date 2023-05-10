@@ -909,8 +909,8 @@
       }
     },
     "src/ClockV2.sol": {
-      "lastModificationDate": 1683642777094,
-      "contentHash": "83179f8739569eabaf9e86d506df6fda",
+      "lastModificationDate": 1683693704770,
+      "contentHash": "9f0ca9521e34be4cd3a036c4007e0a4a",
       "sourceName": "src/ClockV2.sol",
       "solcConfig": {
         "settings": {
@@ -940,7 +940,9 @@
           "libraries": {}
         }
       },
-      "imports": [],
+      "imports": [
+        "src/ClockV1.sol"
+      ],
       "versionRequirement": "^0.8.17",
       "artifacts": {
         "ClockV2": {
@@ -989,8 +991,8 @@
       }
     },
     "test/ProxyTest.t.sol": {
-      "lastModificationDate": 1683644007558,
-      "contentHash": "24497bc63a24c9f81636243e56b81cfe",
+      "lastModificationDate": 1683693472466,
+      "contentHash": "4eaba21b1aacbb88d1e991bed5beebca",
       "sourceName": "test/ProxyTest.t.sol",
       "solcConfig": {
         "settings": {
@@ -1047,6 +1049,69 @@
       "artifacts": {
         "ProxyTest": {
           "0.8.17+commit.8df45f5f.Darwin.appleclang": "ProxyTest.t.sol/ProxyTest.json"
+        }
+      }
+    },
+    "test/ProxyTestV2.t.sol": {
+      "lastModificationDate": 1683695611492,
+      "contentHash": "e6e05b7afef2bda1a017ee2e8784644d",
+      "sourceName": "test/ProxyTestV2.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "src/BasicProxy.sol",
+        "src/BasicProxyV2.sol",
+        "src/ClockV1.sol",
+        "src/ClockV2.sol",
+        "src/Proxy.sol"
+      ],
+      "versionRequirement": "^0.8.17",
+      "artifacts": {
+        "ProxyTestV2": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ProxyTestV2.t.sol/ProxyTestV2.json"
         }
       }
     }
